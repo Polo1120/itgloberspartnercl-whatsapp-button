@@ -52,7 +52,8 @@ WhatsappButton.schema ={
       type:"string",
       widget:{
         "iu:widget":"image.uploader"
-      },
+      }
+    },
       phone:{
         title:"telefono",
         description:"Por favor ingrese el numero de telefono",
@@ -69,14 +70,13 @@ WhatsappButton.schema ={
       width:{
         title:"acho img",
         description:"Por favor ingrese ancho de la img",
-        type:"nuber",
+        type:"number",
       },
       height:{
         title:"altura img",
         description:"Por favor ingrese altura de la img",
         type:"number",
       },
-    }
   }
 }
 
